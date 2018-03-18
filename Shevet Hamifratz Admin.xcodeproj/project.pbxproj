@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7313DA122020423600178F97 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313DA112020423600178F97 /* NewMessageController.swift */; };
 		734C9FEB201FDD05007F4029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C9FEA201FDD05007F4029 /* AppDelegate.swift */; };
-		734C9FED201FDD05007F4029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C9FEC201FDD05007F4029 /* ViewController.swift */; };
+		734C9FED201FDD05007F4029 /* NewsletterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C9FEC201FDD05007F4029 /* NewsletterViewController.swift */; };
 		734C9FF0201FDD05007F4029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734C9FEE201FDD05007F4029 /* Main.storyboard */; };
 		734C9FF2201FDD05007F4029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734C9FF1201FDD05007F4029 /* Assets.xcassets */; };
 		734C9FF5201FDD05007F4029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734C9FF3201FDD05007F4029 /* LaunchScreen.storyboard */; };
+		734C9FFD201FDEF8007F4029 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 734C9FFC201FDEF8007F4029 /* GoogleService-Info.plist */; };
+		7377C44620218A2700335C6A /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377C44420218A2700335C6A /* ArticleCell.swift */; };
+		7377C44720218A2700335C6A /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7377C44520218A2700335C6A /* ArticleCell.xib */; };
+		7377C44B2021915200335C6A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377C44A2021915200335C6A /* Article.swift */; };
+		E49813703B7DCA383BA6C68D /* Pods_Shevet_Hamifratz_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51B685CEFE8E849F30482C9 /* Pods_Shevet_Hamifratz_Admin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7198401BFD36773DA242E394 /* Pods-Shevet Hamifratz Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shevet Hamifratz Admin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shevet Hamifratz Admin/Pods-Shevet Hamifratz Admin.release.xcconfig"; sourceTree = "<group>"; };
+		7313DA112020423600178F97 /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		734C9FE7201FDD05007F4029 /* Shevet Hamifratz Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shevet Hamifratz Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734C9FEA201FDD05007F4029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		734C9FEC201FDD05007F4029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		734C9FEC201FDD05007F4029 /* NewsletterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterViewController.swift; sourceTree = "<group>"; };
 		734C9FEF201FDD05007F4029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		734C9FF1201FDD05007F4029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		734C9FF4201FDD05007F4029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		734C9FF6201FDD05007F4029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734C9FFC201FDEF8007F4029 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7377C44420218A2700335C6A /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		7377C44520218A2700335C6A /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		7377C44A2021915200335C6A /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		AEBC8909601065E6DBFCF91A /* Pods-Shevet Hamifratz Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shevet Hamifratz Admin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shevet Hamifratz Admin/Pods-Shevet Hamifratz Admin.debug.xcconfig"; sourceTree = "<group>"; };
+		C51B685CEFE8E849F30482C9 /* Pods_Shevet_Hamifratz_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shevet_Hamifratz_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49813703B7DCA383BA6C68D /* Pods_Shevet_Hamifratz_Admin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				734C9FE9201FDD05007F4029 /* Shevet Hamifratz Admin */,
 				734C9FE8201FDD05007F4029 /* Products */,
+				85DF962C9A1FDFAEB47B9BD7 /* Pods */,
+				A85D193741319141C46FE529 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,35 @@
 			isa = PBXGroup;
 			children = (
 				734C9FEA201FDD05007F4029 /* AppDelegate.swift */,
-				734C9FEC201FDD05007F4029 /* ViewController.swift */,
+				7377C44A2021915200335C6A /* Article.swift */,
+				734C9FEC201FDD05007F4029 /* NewsletterViewController.swift */,
+				7313DA112020423600178F97 /* NewMessageController.swift */,
+				7377C44420218A2700335C6A /* ArticleCell.swift */,
+				7377C44520218A2700335C6A /* ArticleCell.xib */,
 				734C9FEE201FDD05007F4029 /* Main.storyboard */,
 				734C9FF1201FDD05007F4029 /* Assets.xcassets */,
 				734C9FF3201FDD05007F4029 /* LaunchScreen.storyboard */,
 				734C9FF6201FDD05007F4029 /* Info.plist */,
+				734C9FFC201FDEF8007F4029 /* GoogleService-Info.plist */,
 			);
 			path = "Shevet Hamifratz Admin";
+			sourceTree = "<group>";
+		};
+		85DF962C9A1FDFAEB47B9BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC8909601065E6DBFCF91A /* Pods-Shevet Hamifratz Admin.debug.xcconfig */,
+				7198401BFD36773DA242E394 /* Pods-Shevet Hamifratz Admin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A85D193741319141C46FE529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C51B685CEFE8E849F30482C9 /* Pods_Shevet_Hamifratz_Admin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 734C9FF9201FDD05007F4029 /* Build configuration list for PBXNativeTarget "Shevet Hamifratz Admin" */;
 			buildPhases = (
+				C69844CBE51C8AF78EB771B7 /* [CP] Check Pods Manifest.lock */,
 				734C9FE3201FDD05007F4029 /* Sources */,
 				734C9FE4201FDD05007F4029 /* Frameworks */,
 				734C9FE5201FDD05007F4029 /* Resources */,
+				24F4432EBACF79A3BEE78CC5 /* [CP] Embed Pods Frameworks */,
+				3CFD802F3659C343F2098AA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +167,94 @@
 			files = (
 				734C9FF5201FDD05007F4029 /* LaunchScreen.storyboard in Resources */,
 				734C9FF2201FDD05007F4029 /* Assets.xcassets in Resources */,
+				734C9FFD201FDEF8007F4029 /* GoogleService-Info.plist in Resources */,
+				7377C44720218A2700335C6A /* ArticleCell.xib in Resources */,
 				734C9FF0201FDD05007F4029 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24F4432EBACF79A3BEE78CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shevet Hamifratz Admin/Pods-Shevet Hamifratz Admin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GradientLoadingBar/GradientLoadingBar.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientLoadingBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shevet Hamifratz Admin/Pods-Shevet Hamifratz Admin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CFD802F3659C343F2098AA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shevet Hamifratz Admin/Pods-Shevet Hamifratz Admin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C69844CBE51C8AF78EB771B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shevet Hamifratz Admin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		734C9FE3201FDD05007F4029 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				734C9FED201FDD05007F4029 /* ViewController.swift in Sources */,
+				7377C44620218A2700335C6A /* ArticleCell.swift in Sources */,
+				734C9FED201FDD05007F4029 /* NewsletterViewController.swift in Sources */,
 				734C9FEB201FDD05007F4029 /* AppDelegate.swift in Sources */,
+				7313DA122020423600178F97 /* NewMessageController.swift in Sources */,
+				7377C44B2021915200335C6A /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +389,7 @@
 		};
 		734C9FFA201FDD05007F4029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBC8909601065E6DBFCF91A /* Pods-Shevet Hamifratz Admin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +405,7 @@
 		};
 		734C9FFB201FDD05007F4029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7198401BFD36773DA242E394 /* Pods-Shevet Hamifratz Admin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
