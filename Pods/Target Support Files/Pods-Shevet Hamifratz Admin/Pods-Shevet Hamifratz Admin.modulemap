@@ -1,0 +1,6 @@
+framework module Pods_Shevet_Hamifratz_Admin {
+  umbrella header "Pods-Shevet Hamifratz Admin-umbrella.h"
+
+  export *
+  module * { export * }
+}
