@@ -9,11 +9,9 @@
 import UIKit
 import CropViewController
 import Firebase
-
+import FirebaseStorage
 
 class NewMessageController: UIViewController, CropViewControllerDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
-
-    
     
     var image: UIImage?
     
@@ -59,8 +57,7 @@ class NewMessageController: UIViewController, CropViewControllerDelegate, UINavi
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
+  
     
     
     
@@ -281,6 +278,10 @@ extension UITextView: UITextViewDelegate {
         self.resizePlaceholder()
         self.delegate = self
     }
+    
+    
+    
+    
     
 }
 

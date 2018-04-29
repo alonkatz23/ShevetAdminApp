@@ -15,6 +15,7 @@ pod 'GradientLoadingBar', '~> 1.0'
 pod 'CropViewController'
 pod 'JTAppleCalendar', '~> 7.0'
 pod 'Firebase/Storage'
+pod 'IQKeyboardManagerSwift'
 
 
 

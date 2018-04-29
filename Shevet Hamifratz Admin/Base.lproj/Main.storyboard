@@ -206,6 +206,9 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="ibw-XP-biZ" id="Lru-aa-Gav"/>
+                                        </connections>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C9u-r6-DWQ">
                                         <rect key="frame" x="17" y="67" width="298" height="1"/>
@@ -220,6 +223,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <dataDetectorType key="dataDetectorTypes" shipmentTrackingNumber="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="ibw-XP-biZ" id="V8K-a7-FUm"/>
+                                        </connections>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
